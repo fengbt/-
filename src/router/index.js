@@ -88,6 +88,16 @@ export const constantRoutes = [
         component: () => import('@/views/directives/index')
       }
     ]
+  },
+  {
+    path: '/dialog',
+    name: 'dialog',
+    component: Layout,
+    children: [{
+      path: 'index',
+      meta: { title: '2.全局弹窗' },
+      component: () => import('@/views/message')
+    }]
   }
 ]
 

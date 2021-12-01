@@ -22,7 +22,7 @@ export default {
     onFailure() {
       // console.log('failure')
       this.$Message({
-        title: '失败',
+        title: '失败,成功，失败,失败,成功，失败,失败,成功，失败,失败,成功，失败,失败,成功，失败,失败,成功，失败,失败,成功，失败,失败,成功，失败,',
         bgColor: 'red',
         width: '400px',
         color: 'black'

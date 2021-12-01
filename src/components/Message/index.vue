@@ -18,6 +18,10 @@ export default {
       type: String,
       default: '200px'
     },
+    height: {
+      type: String,
+      default: '200px'
+    },
     color: {
       type: String,
       default: '100px'
@@ -48,10 +52,8 @@ export default {
     flex-direction: column;
     text-align: center;
     color: #fff;
-    span{
-      height:50px;
-      line-height:50px;
-    }
+    line-height: 50px;
+    padding: 10px
   }
 }
 </style>
